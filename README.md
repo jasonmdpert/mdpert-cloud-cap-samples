@@ -19,7 +19,7 @@ Find here a collection of samples for the [SAP Cloud Application Programming Mod
    ```sh
    npm i -g @sap/cds-dk
    ```
-
+ 
 3. _Optional:_ [Use Visual Studio Code](https://cap.cloud.sap/docs/get-started/tools#vscode)
 
 ### Download
