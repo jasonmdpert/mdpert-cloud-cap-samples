@@ -10,7 +10,8 @@
     "index.js"
   ],
   "devDependencies": {
-    "@cap-js/sqlite": "*"
+    "@cap-js/sqlite": "*",
+    "@sap/ux-specification": "^1.120.1"
   },
   "dependencies": {
     "@sap/cds": "^7",
@@ -20,6 +21,7 @@
   "scripts": {
     "genres": "cds serve test/genres.cds",
     "start": "cds-serve",
-    "watch": "cds watch"
+    "watch": "cds watch",
+    "watch-project1": "cds watch --open project1/webapp/index.html?sap-ui-xx-viewCache=false"
   }
 }
